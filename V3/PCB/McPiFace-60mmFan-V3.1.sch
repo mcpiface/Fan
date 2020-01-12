@@ -8677,6 +8677,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="D6" library="ThingySticks" deviceset="LED" device="1206" value="BLUE"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-IRLML2244" value="SI2307CDS">
 <attribute name="FARNELL" value="1779262"/>
+<attribute name="LCSC" value="C189813"/>
 </part>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-BSS138" value="2N7002">
 <attribute name="FARNELL" value="1510761"/>
@@ -8721,7 +8722,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="_HALF-AMP" value="12V/0.5A"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
-<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_LM1117" device="SOT223">
+<attribute name="LCSC" value="C126027"/>
+</part>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -8729,7 +8732,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="C5" library="ThingySticks" deviceset="0.1UF" device="-0805-25V" value="0.1uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-BAS16J" value="IN4148W"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-BAS16J" value="IN4148WS">
+<attribute name="LCSC" value="C2128"/>
+</part>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="15V"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -8784,6 +8789,7 @@ and Monitor</text>
 <instance part="D6" gate="G$1" x="48.26" y="160.02" rot="R90"/>
 <instance part="Q1" gate="G$1" x="71.12" y="35.56" rot="R180">
 <attribute name="FARNELL" x="71.12" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC" x="71.12" y="35.56" size="1.016" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="Q2" gate="NMOS" x="91.44" y="30.48" rot="MR0">
 <attribute name="FARNELL" x="91.44" y="30.48" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -8829,7 +8835,9 @@ and Monitor</text>
 <instance part="SUPPLY1" gate="G$1" x="35.56" y="104.14"/>
 <instance part="F1" gate="F1" x="223.52" y="160.02"/>
 <instance part="SUPPLY5" gate="G$1" x="236.22" y="165.1"/>
-<instance part="U2" gate="G$1" x="220.98" y="88.9"/>
+<instance part="U2" gate="G$1" x="220.98" y="88.9">
+<attribute name="LCSC" x="220.98" y="88.9" size="1.016" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY3" gate="G$1" x="208.28" y="91.44"/>
 <instance part="SUPPLY15" gate="G$1" x="233.68" y="91.44"/>
 <instance part="GND4" gate="1" x="220.98" y="76.2"/>
@@ -8837,7 +8845,9 @@ and Monitor</text>
 <instance part="C5" gate="G$1" x="233.68" y="83.82"/>
 <instance part="GND10" gate="1" x="208.28" y="76.2"/>
 <instance part="GND15" gate="1" x="233.68" y="76.2"/>
-<instance part="D1" gate="G$1" x="68.58" y="22.86" rot="R90"/>
+<instance part="D1" gate="G$1" x="68.58" y="22.86" rot="R90">
+<attribute name="LCSC" x="68.58" y="22.86" size="1.016" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="68.58" y="15.24"/>
 <instance part="D2" gate="G$1" x="106.68" y="15.24" rot="R90"/>
 <instance part="GND16" gate="1" x="106.68" y="7.62"/>

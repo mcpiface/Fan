@@ -202,7 +202,7 @@
 <text x="11.67" y="28.77" size="1.27" layer="26" ratio="15" rot="MR90">3v3</text>
 <text x="77.47" y="29.735" size="1.27" layer="26" ratio="15" rot="MR270">GND</text>
 <text x="32.835" y="84.7" size="2.1844" layer="25" ratio="15">Warn</text>
-<text x="65.3" y="74.1" size="1.778" layer="26" ratio="15" rot="MR0">http://github.com/McPiFace/Fan</text>
+<text x="66.2" y="76.2" size="1.778" layer="26" ratio="15" rot="MR0">http://github.com/McPiFace/Fan</text>
 <text x="10.3" y="5.2" size="1.778" layer="26" ratio="15" rot="MR0">V3.1</text>
 <text x="52" y="4" size="1.778" layer="26" ratio="15" rot="MR0">S.Harrison
 10 Feb 2019</text>
@@ -929,6 +929,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="TRANS-11153" x="81" y="24.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="82.651" y="24.9" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="FARNELL" value="1779262" x="81" y="24.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LCSC" value="C189813" x="81" y="24.9" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="2N7002" x="81.265" y="20" smashed="yes" rot="MR0">
 <attribute name="PROD_ID" value="TRANS-00830" x="81.265" y="20" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1021,6 +1022,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="U2" library="SparkFun-IC-Power" package="SOT223" value="" x="3.6" y="64.4" rot="MR180">
 <attribute name="PROD_ID" value="VREG-08170" x="3.6" y="64.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LCSC" value="C126027" x="3.6" y="64.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C1" library="ThingySticks" package="0805" value="0.1uF" x="2.7" y="74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="3.6" y="75.511" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
@@ -1030,9 +1032,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="3.6" y="72.411" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="3" y="69.489" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="IN4148W" x="84.8" y="24.9" smashed="yes" rot="MR270">
+<element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="IN4148WS" x="84.8" y="24.9" smashed="yes" rot="MR270">
 <attribute name="PROD_ID" value="DIO-09646" x="84.8" y="24.9" size="1.778" layer="28" ratio="15" rot="MR270" display="off"/>
 <attribute name="NAME" x="84.7" y="27.538" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="LCSC" value="C2128" x="84.8" y="24.9" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="D2" library="SparkFun-DiscreteSemi" package="SOD-323" value="15V" x="11.6" y="41.1" rot="MR0">
 <attribute name="PROD_ID" value="DIO-08199" x="11.6" y="41.1" size="1.778" layer="28" ratio="15" rot="MR0" display="off"/>
@@ -1117,9 +1120,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="13.9" y1="48.9" x2="15.2" y2="50.3" width="0.254" layer="1"/>
 <wire x1="15.2" y1="50.3" x2="15.2" y2="73.5" width="0.254" layer="1"/>
 <wire x1="15.2" y1="73.5" x2="15.6" y2="73.9" width="0.254" layer="1"/>
-<wire x1="15.6" y1="73.9" x2="50.7" y2="73.7" width="0.254" layer="1"/>
-<wire x1="50.7" y1="73.7" x2="51.3" y2="74.3" width="0.254" layer="1"/>
-<wire x1="51.3" y1="74.3" x2="51.3" y2="80.5" width="0.254" layer="1"/>
+<wire x1="15.6" y1="73.9" x2="50.7" y2="73.9" width="0.254" layer="1"/>
+<wire x1="50.7" y1="73.9" x2="51.3" y2="74.5" width="0.254" layer="1"/>
+<wire x1="51.3" y1="74.5" x2="51.3" y2="80.5" width="0.254" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="2"/>
