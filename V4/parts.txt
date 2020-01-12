@@ -1,0 +1,33 @@
+Partlist
+
+Exported from McPiFace-60mmFan-V4.0.brd at 12/01/2020 14:54
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package            Library               Position (inch)       Orientation
+
+C1       0.1uF          0805               ThingySticks          (0.22047244 2.91338583) MR0
+C5       0.1uF          0805               ThingySticks          (0.22047244 2.79527559) MR0
+D1       IN4148WS       SOD-323            SparkFun-DiscreteSemi (3.33858268 0.98031496) MR270
+D2       5V             SOD-323            SparkFun-DiscreteSemi (0.37795276 1.01968504) MR90
+D3       IN4148WS       SOD-323            SparkFun-DiscreteSemi (0.37677165 1.93700787) MR270
+D6       BLUE           LED-1206           ThingySticks          (1.73228346 3.22834646) R270
+F1       12V/0.5A       1206               SparkFun-Fuses        (3.16929134 2.48818898) MR0
+J1                      JST-2-SMD-VERT     SparkFun-Connectors   (3.18110236 2.80314961) MR0
+J2       Fan            JST-3-SMD          SparkFun-Connectors   (3.22047244 1.41732283) MR0
+J3       DNP            JST-2-SMD-VERT     SparkFun-Connectors   (3.18110236 2.01574803) MR0
+J4       I2C            JST-6-SH-1.0MM-TOP McPiFace              (0.26771654 1.66929134) MR0
+Q1       SI2307CDS      SOT23-3            SparkFun-DiscreteSemi (3.18897638 0.98031496) MR0
+Q2       2N7002         SOT23-3            SparkFun-DiscreteSemi (3.19940945 0.78740157) MR0
+R1       1k5            0805               SparkFun-Resistors    (0.23622047 1.12598425) MR0
+R2       1k5            0805               SparkFun-Resistors    (0.18385827 0.87086614) MR0
+R3       10k            0805               SparkFun-Resistors    (0.48425197 1.15354331) MR90
+R4       100k           0805               SparkFun-Resistors    (0.16929134 1.88248031) MR90
+R5       100R           0805               SparkFun-Resistors    (0.34173228 0.87027559) MR0
+R6       100k           0805               SparkFun-Resistors    (3.05511811 0.86338583) MR270
+R7       4k7            0805               SparkFun-Resistors    (0.48425197 1.48425197) MR270
+R10      4k7            0805               SparkFun-Resistors    (0.48425197 1.30708661) MR90
+U2                      SOT223             SparkFun-IC-Power     (0.25590551 2.53543307) MR180
+U3       TCN75AVOA      SOIC127P600X175-8N Microchip-TCN75AVOA   (0.2519685 1.37007874) MR0
